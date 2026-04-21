@@ -1,4 +1,5 @@
 COVID Bed Slot Booking System
+
 During the COVID-19 pandemic, every minute mattered. Patients in critical condition could not afford to wait through hospital admission queues and paperwork before being assigned a bed — delays that in many cases proved fatal. Families had no way of knowing which hospitals had available beds, forcing them to drive from one overwhelmed facility to another while a patient's condition deteriorated. This system was built to solve that problem directly.
+
 The application allows patients or their families to book a hospital bed remotely from home before physically arriving, eliminating the admission bottleneck entirely. By the time the patient reaches the hospital, the bed is already reserved, the slot is confirmed, and clinical staff can focus on care rather than administration. The backend uses a SQL relational database to manage real-time bed inventory across hospital wards, and the HTML frontend provides a simple, accessible interface that anyone can use under pressure.
-To run the project locally, import code.sql into MySQL or PostgreSQL, then open index.html in a browser connected to your local database instance.
